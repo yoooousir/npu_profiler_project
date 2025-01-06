@@ -17,7 +17,7 @@ python main.py
 ```
 -----------------------------
 ### 프로젝트 구조
-
+```
 ├── main.py                         # 프로젝트 실행
 ├── model.py                        # SimpleCNN 클래스 정의
 ├── profiler.py                     # 모델 프로파일링
@@ -25,3 +25,4 @@ python main.py
 ├── requirements.txt                # 필요한 라이브러리
 ├── layer_wise_execution_time.png   # 레이어별 실행 시간 시각화 결과
 └── .gitignore                      # 불필요한 파일 및 폴더 제외 설정
+```
