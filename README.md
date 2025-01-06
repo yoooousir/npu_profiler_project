@@ -17,6 +17,7 @@ python main.py
 ```
 -----------------------------
 ### 프로젝트 구조
+
 ├── main.py                         # 프로젝트 실행
 ├── model.py                        # SimpleCNN 클래스 정의
 ├── profiler.py                     # 모델 프로파일링
