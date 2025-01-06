@@ -1,0 +1,7 @@
+# Python 관련
+__pycache__/
+*.pyc
+*.pyo
+
+# 데이터
+data/

@@ -8,7 +8,8 @@ train_data = datasets.MNIST(root='./data', train=True, download=True,
                             transform=transforms.ToTensor())
 
 # 모델 초기화
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("npu" if torch.npu.is_available() else 
+                      "cuda" if torch.cuda.is_available() else "cpu")
 model = SimpleCNN().to(device)
 
 # 모델 성능 프로파일링

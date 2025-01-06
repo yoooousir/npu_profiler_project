@@ -25,4 +25,8 @@ python main.py
 ├── requirements.txt                # 필요한 라이브러리
 ├── layer_wise_execution_time.png   # 레이어별 실행 시간 시각화 결과
 └── .gitignore                      # 불필요한 파일 및 폴더 제외 설정
+<<<<<<< Updated upstream
 ```
+=======
+```
+>>>>>>> Stashed changes
