@@ -6,3 +6,5 @@ __pycache__/
 *.pkl
 .pytest_cache/
 .coverage
+results/
+profiler_old.py
